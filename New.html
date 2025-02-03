@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrandElevate</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        
+        header {
+            background-color: #333;
+            padding: 20px;
+            color: white;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 50px;
+        }
+        
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        
+        section {
+            padding: 50px;
+            background-color: white;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        .service {
+            margin-bottom: 20px;
+        }
+        
+        .service h3 {
+            color: #333;
+            font-size: 1.5em;
+        }
+        
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        ul li {
+            margin: 10px 0;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        
+        button {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            cursor: pointer;
+            font-size: 1em;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        
+        button:hover {
+            background-color: #555;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">BrandElevate</div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#why-choose-us">Why Choose Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h1>Bringing Brands to Life, One Experience at a Time</h1>
+            <p>BrandElevate is a dynamic branding and marketing solutions company specializing in experiential marketing, corporate branding, and promotional events.</p>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="service">
+                <h3>Brand Activation & Experiential Marketing</h3>
+                <p>Product launches, interactive brand events, sampling campaigns.</p>
+            </div>
+            <div class="service">
+                <h3>Corporate Branding & Identity</h3>
+                <p>Logo design, brand strategy, corporate merchandise, office branding.</p>
+            </div>
+            <div class="service">
+                <h3>Event Marketing & Promotions</h3>
+                <p>Trade shows, expos, sponsorship activations, guerrilla marketing.</p>
+            </div>
+            <div class="service">
+                <h3>Digital Branding & Social Media Campaigns</h3>
+                <p>Influencer collaborations, social media brand promotions, content creation.</p>
+            </div>
+            <div class="service">
+                <h3>Outdoor & Ground Activities</h3>
+                <p>Roadshows, mall activations, pop-up experiences, sports branding.</p>
+            </div>
+        </section>
+
+        <section id="why-choose-us">
+            <h2>Why Choose Us?</h2>
+            <ul>
+                <li>Creative Excellence: Fresh, innovative ideas.</li>
+                <li>Strategic Approach: Data-driven methods for impact.</li>
+                <li>Seamless Execution: Flawless event planning.</li>
+                <li>Customer-Centric: Tailored brand solutions.</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Let’s Elevate Your Brand!</h2>
+            <p>Partner with BrandElevate to create unforgettable brand experiences.</p>
+            <button onclick="showAlert()">Contact Us</button>
+        </section>
+    </div>
+
+    <script>
+        function showAlert() {
+            alert("Thank you for reaching out! We'll get back to you soon.");
+        }
+    </script>
+</body>
+</html>
